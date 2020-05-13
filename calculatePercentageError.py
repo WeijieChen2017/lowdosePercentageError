@@ -25,5 +25,5 @@ for caseName in caseList:
 
     print(caseName, " ",end="")
     for path in [fullPath, lowPath, petPath, mrPath, mixPath]:
-        print(getSUV(path, segData), end="")
+        print(getSUV(path, segData), " ", end="")
     print("")
